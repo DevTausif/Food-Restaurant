@@ -5,9 +5,8 @@
   padding: 0;
 }
 
-html,body{
+body{
     font-family: "Work Sans", sans-serif;
-    height: 100%;
 }
 
 /* Banner Section */
@@ -23,7 +22,6 @@ html,body{
   background-position: top;
   height: 100vh;
   width: 100%;
-  margin-bottom: 20px;
 }
 .caption {
   text-align: center;
@@ -59,4 +57,21 @@ html,body{
   margin-top: 30px;
   border: none;
   font-weight: bold;
+}
+/* Brand Section Design */
+.brand-section{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.brand{
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 400;
+    color: rgb(151, 151, 151);
+}
+
+.brands-food{
+    font-size: 48px;
+    font-weight: bold;
 }
