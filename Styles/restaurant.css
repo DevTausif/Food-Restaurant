@@ -5,8 +5,8 @@
   padding: 0;
 }
 
-body{
-    font-family: "Work Sans", sans-serif;
+body {
+  font-family: "Work Sans", sans-serif;
 }
 
 /* Banner Section */
@@ -43,35 +43,101 @@ body{
 }
 
 #belief {
-  color:rgba(218, 218, 218, 0.962);
+  color: rgba(218, 218, 218, 0.962);
   font-weight: 500;
   font-size: 15px;
   margin-top: 24px;
 }
+
 /* button styles */
 .btn-hot {
   border-radius: 8px;
   background: rgb(82, 195, 3);
-  color:rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
   padding: 15px 32px 15px 32px;
   margin-top: 30px;
   border: none;
   font-weight: bold;
 }
+
+.btn-sell {
+  border-radius: 8px;
+  background: rgb(82, 195, 3);
+  color: rgb(255, 255, 255);
+  padding: 15px 32px 15px 32px;
+  margin-top: 30px;
+  border: none;
+  font-weight: bold;
+  margin-left: 15.5%;
+  margin-bottom: 5%;
+}
+
 /* Brand Section Design */
-.brand-section{
-    text-align: center;
-    margin-bottom: 5%;
+.brand-section {
+  text-align: center;
+  margin-bottom: 5%;
 }
 
-.brand{
-    margin-bottom: 10px;
-    font-size: 24px;
-    font-weight: 400;
-    color: rgb(151, 151, 151);
+.brand {
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: 400;
+  color: rgb(151, 151, 151);
 }
 
-.brands-food{
-    font-size: 48px;
-    font-weight: bold;
+.brands-food {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+/* Food Item  */
+.food-item {
+  display: flex;
+  gap: 5%;
+  justify-content: center;
+  padding: 0 10% 0 10%;
+  margin-bottom: 30px;
+}
+.food {
+  text-align: center;
+  padding-bottom: 50px;
+  border-radius: 16px;
+  border: 10px solid whitesmoke;
+  box-shadow: 0px 0px 10px;
+  border: none;
+}
+
+img {
+  width: 320px;
+  height: 200px;
+}
+
+.food-text {
+  text-align: center;
+  margin-top: 15px;
+  margin-left: 15%;
+  border-radius: 8px;
+  background: rgba(82, 195, 3, 0.15);
+  height: auto;
+  width: 70%;
+  padding: 10px 0;
+  color: rgb(16, 16, 16);
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.food-offer {
+  text-align: center;
+  padding: 10px;
+  color: rgb(16, 16, 16);
+  font-size: x-large;
+  font-weight: 700;
+  margin-top: 24px;
+}
+
+.food-description {
+  padding: 10px;
+  color: rgb(95, 95, 95);
+  font-size: 20px;
+  font-weight: 500;
 }
