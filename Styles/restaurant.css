@@ -65,11 +65,11 @@ body {
   background: rgb(82, 195, 3);
   color: rgb(255, 255, 255);
   padding: 15px 32px 15px 32px;
-  margin-top: 30px;
+  margin-top: 20px;
   border: none;
   font-weight: bold;
   margin-left: 15.5%;
-  margin-bottom: 5%;
+  margin-bottom: 7%;
 }
 
 .sell {
@@ -155,6 +155,7 @@ img {
 /* Pizza Items */
 .pizza {
   text-align: center;
+  margin-top: 10px;
 }
 
 .pizza-text {
