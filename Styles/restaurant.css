@@ -73,13 +73,13 @@ body {
 }
 
 .sell {
-    border-radius: 8px;
-    background: rgb(82, 195, 3);
-    color: rgb(255, 255, 255);
-    padding: 15px 32px 15px 32px;
-    margin-top: 30px;
-    border: none;
-    font-weight: bold;
+  border-radius: 8px;
+  background: rgb(82, 195, 3);
+  color: rgb(255, 255, 255);
+  padding: 15px 32px 15px 32px;
+  margin-top: 30px;
+  border: none;
+  font-weight: bold;
 }
 
 /* Brand Section Design */
@@ -117,7 +117,7 @@ body {
   border: none;
 }
 
-img {
+.img {
   width: 320px;
   height: 200px;
 }
@@ -179,9 +179,66 @@ img {
   margin-bottom: 5px;
 }
 
-.pizza-description{
-    padding: 10px;
-    color: rgb(95, 95, 95);
-    font-size: 20px;
-    font-weight: 500;
+.pizza-description {
+  padding: 10px;
+  color: rgb(95, 95, 95);
+  font-size: 20px;
+  font-weight: 500;
 }
+
+/* about us */
+
+.about-content {
+  font-size: larger;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+.sub {
+  color: rgba(109, 109, 109, 0.962);
+  font-weight: 500;
+  font-size: 10px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.about {
+  display: flex;
+  width: 700px;
+  height: 200px;
+  margin: auto;
+  gap: 60px;
+  border: 10px solid whitesmoke;
+  border: none;
+  border-radius: 0px;
+  box-shadow: 0px 0px 10px;
+  margin-bottom: 25px;
+  padding: 0px;
+}
+
+.about-us {
+  width: 35%;
+}
+
+.about-img {
+  height: 100%;
+  width: 100%;
+}
+
+.content-info {
+  margin-top: 10px;
+  padding-right: 35px;
+}
+
+#follow-on {
+  text-align: center;
+  font-size: 24px;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
